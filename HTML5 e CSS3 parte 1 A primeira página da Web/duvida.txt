@@ -1,0 +1,56 @@
+hexadecial : 0123456789ABCDEF
+
+RGB = Red Green Blue
+
+# _ _ _ _ _ _ 
+
+0 = Ausência de cor
+
+F = Máximo de cor
+
+#000000
+
+#ffffff
+
+#FF00000
+
+
+Red
+blue
+yellow
+
+RGB 0,1,2,3,....255
+
+0 = ausencia
+
+255 = maximo
+
+rgb(255,255,255) vermelho, verde. azul
+
+rgb(0,0,255) -> Azul
+
+padding -> espaçamento interno -> serve da borda para fora
+margin -> espaçamento externo
+
+----------------------------------------------------
+
+Alguém que é responsavel pela usabilidade so site o UX
+
+UX - User Experience
+
+Time da interface do usuário se chama UI
+
+UI - User Interface
+
+E o codificado o desenvolvedor front end
+
+Ira pegar a parte que foi desenvolvida visualmente e desenvolvedor em código web
+--------------------------------------------------------
+
+Lista ordenada - segue sequencia - > ul e li
+selecionar tudo e apertar - tab( ira formatar todo o código) - irá identar 
+
+uma tag oculpar uma tag inteira da pagina, (se chama block), quer dizer que ele bloqueia o conteudo inteiro daquela linha, já uma imagem nao bloqueia
+o conteudo ela deixa que tenha outros conteudos no mesmo espaco(isso é chamado de inline)
+
+inline e block- ele bloqueia a largura mais a largura é fixa, nos que determina o tamanho
