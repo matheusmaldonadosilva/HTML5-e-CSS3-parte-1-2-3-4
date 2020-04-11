@@ -131,6 +131,10 @@
         padding: 10px 25px;
     }
 
+    legend {
+        margin-bottom: 15px;
+    }
+
     .enviar{
         width: 40%;
         padding: 15px 0;
