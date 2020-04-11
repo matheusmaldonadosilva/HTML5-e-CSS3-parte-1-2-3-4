@@ -1,54 +1,170 @@
-    body{
-  
+    header {
+        background: #bbbbbb;
+        padding: 20px 20px 0 0; /* espacamento interno, para nada encostar na margem*/
+    }
+
+    .caixa {
+        width: 940px; /* margem padrao */
+        position: relative; /* colocar um posicionamento na caixa do header */
+        margin: 0 auto; /* 0 o topo porem coloca em auto para a caixa calcular as margens automaticamente */
+    }
+
+    nav {
+        position: absolute; /* menu absoluto ao elemento que levantou no html, nesse caso a caixa */
+        top: 110px;
+        right: 0;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 0 0 15px; /* top. right, down, left */
+    }
+
+    nav a {
+        text-transform: uppercase; /* transformar o texto todo em maiusculo no css */
+        color: #000000;
+        font-weight: bold; /*peso da fonte, bold - negrito */
+        font-size: 22px;
+        text-decoration: none;/* nenhuma equação no texto, none, retirando o sublinhado */
 
     }
 
-    #banner{
-        width: 100%;
+    nav a:hover {
+        color: #c78c19;
+        text-decoration: underline; /* quando usuario passar o mouse por cima aparecera sublinhado */
     }
 
-    .principal {
-        background: #cccccc;
-        padding: 30px;
+    .produtos {
+        width: 940px; /* conteudo é menor que 940px */
+        margin: 0 auto; 
+        padding: 50px 0;
     }
 
-    .titulo-principal{
-        padding-left: 20px;
-    }
-
-    p {
+    .produtos li {
+        display: inline-block; /* eles estao ocupando o tamanho do conteudo deless, por isso que um fica do lado do outro */
         text-align: center;
+        width: 30%;
+        vertical-align: top; /* usamos para os items carregar pela linha de cima*/
+        margin: 0 1.5%;
+        padding: 30px 20px;
+        box-sizing: border-box; /* com box-sizing o espacamento lateral esteja no percentual*/
+        /* assim os 30% sao definitivos sao sempre largura e o 
+        espacamento interno esta dentro dos 30% */
+        
+        /*  border-color: #000000;
+        border-width: 2px;
+        border-style: solid; */
 
+        border: 2px solid #000000; /*width, style e color */
+        border-radius: 10px;
+        /*  border-radius: 10px 20px 40px 40px; */
     }
 
-    #missao {
+    .produtos li:hover { /* selecionar o que queremos li:hover  */
+        border-color: #c78c19;
+    }
+
+    .produtos li:active { /* quando o elemento estiver ativo, clicado, mudamos o cor da borda */
+        border-color: #088c09;
+    }
+
+    .produtos li:hover h2 { /* quando o mouse passar pelo li de produtos quero que o h2 tenha o tamanho especifico */
+            font-size: 34px;
+    }
+
+    .produtos h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .produto-descricao {
+        font-size: 18px;
+    }
+
+    .produto-preco {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    footer {
+        text-align: center;
+        background: url("../img/bg.jpg");
+        padding: 40px 0; /* (top e bottom - 40px) (left e right - 0) */
+    }
+
+    .copyright{
+        color: #ffffff;
+        font-size: 13px;
+        margin: 20px 0 0;
+    } 
+
+
+    main {
+        width: 940px;
+        margin: 0 auto;
+    }
+
+    form {
+        margin: 40px 0;
+    }
+
+    form label, form p {
+        display: block;
         font-size: 20px;
+        margin: 0 0 10px;
+
     }
 
-    em strong {  /* quando coloca duas tags, classe ou id, determina que parte do codigo ira usar determinado recurso */
-    color: #FF0000;
-    }
-
-    .itens {
-        font-style: italic
-    }
-    
-    .beneficios {
-        background: #FFFFFF;
-        padding: 20px;
-    }
-    
-    .titulo-centralizado {
-        text-align: center;
-    }
-
-    ul {
-        display: inline-block;
-        vertical-align: top;
-        width: 20%;
-        margin-right: 15%;
-    }
-
-    .imagembeneficios {
+    .input-padrao { /* com a virgula, podemos colocar outras configurações para outro */
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
         width: 50%;
     }
+   
+    .checkbox, .texto-contato{
+        margin: 20px 0;
+    }
+
+    form textarea{
+        padding: 10px 25px;
+    }
+
+    .enviar{
+        width: 40%;
+        padding: 15px 0;
+        background: orange;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        transition: 1s all; /* transição de 1s do background, nesse caso mudamos para all para usar em todos os produtos */
+        cursor: pointer; /* mudar o cursor para maozinha */
+    }
+
+    .enviar:hover {
+        background: darkgoldenrod;
+        transform: scale(1.2); /*  para fazer calculos do tamanho do objeto usamos o transform, usamos a propriedade scale e determinamos um valor de 1.2 para aumentar 20% */
+    /*  transform: rotate(70deg), scale(1.2);  propriedade do rotate usamos para rotacionar o objeto em 70 graus, 70 deg */
+    }
+
+    table {
+        margin: 20px 0 40px;
+    }
+
+    thead{
+        background: #555555;
+        color: white;
+        font-weight: bold;
+    }
+
+    td, th {
+        border: 1px solid #000000;
+        padding: 8px 15px;
+    }
+
+
+
+

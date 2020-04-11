@@ -97,3 +97,17 @@ só pesquisar no google
 emoticons - sao unicodes tbm
 
 o copyright tem é um unicode
+-------------------------------------------------------
+
+tag - 1
+class - 10
+id = 100
+inline (Style na proprio html) = 1000
+------------------------------------------------------
+
+testando seu site html5 no site
+http://mobileinputtypes.com/
+
+-----------------------------------------------------
+
+usamos o tag <fieldset> para ajuntar varios campos como label e input inves da div
