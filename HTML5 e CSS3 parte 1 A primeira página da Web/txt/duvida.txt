@@ -111,3 +111,42 @@ http://mobileinputtypes.com/
 -----------------------------------------------------
 
 usamos o tag <fieldset> para ajuntar varios campos como label e input inves da div
+
+-----------------------------------------------------
+
+quando queremos falar de estilo usamos uma classe(class) e quando queremos falar de comportamento usamos o identificador(id)
+
+quando criamos uma classe queremos que seja mais generica
+--------------------------------------------------------
+
+elemento float é usado para posicionar a imagem para flutuar, deixando uma sobra no local so seu espaço
+
+
+----------------------------------------------------------
+
+https://fonts.google.com/
+
+-------------------------------------------------------------
+
+pseudoelementos
+
+:hover
+:active
+:visited
+:required
+-------------------------------------------------------------
+
+calc para calcular o css 
+usando o calc podemos exibir medidas das imagens e objetos no css
+
+exemplo: calc(40% - 26px);
+----------------------------------------------------------
+
+opacidade uma camada a mais em cima do elemento
+
+opacity: 0.1; em porcentagem
+
+color: rgba(0, 0, 0, 0.3); /*rgba serve para colocar opacidade e cor */
+--------------------------------------------------------
+
+com @media query consigo ver qual o tamanho daquela tabela
